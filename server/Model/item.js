@@ -6,6 +6,6 @@ const ItemSchema = new mongoose.Schema({
   description: String
 });
 
-const ItemSchemaModel = mongoose.model('Item', ItemSchema);
+const ItemSchemaModel = mongoose.model('CarData', ItemSchema);
 
 export default ItemSchemaModel;
